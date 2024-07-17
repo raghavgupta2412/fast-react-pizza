@@ -1,11 +1,11 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <Header>
-      {/* <Link to="/">Fast React Pizza Co.</Link> */}
+    <header>
+      <Link to="/">Fast React Pizza Co.</Link>
       <p>Raghav</p>
-    </Header>
+    </header>
   );
 }
 
